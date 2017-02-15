@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		817CAF0D1E543DA600DD94B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817CAF0C1E543DA600DD94B6 /* AppDelegate.swift */; };
+		817CAF0F1E543DA600DD94B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817CAF0E1E543DA600DD94B6 /* ViewController.swift */; };
+		817CAF121E543DA600DD94B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817CAF101E543DA600DD94B6 /* Main.storyboard */; };
+		817CAF141E543DA600DD94B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817CAF131E543DA600DD94B6 /* Assets.xcassets */; };
+		817CAF171E543DA600DD94B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817CAF151E543DA600DD94B6 /* LaunchScreen.storyboard */; };
+		817CAF221E543DA600DD94B6 /* HippoupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817CAF211E543DA600DD94B6 /* HippoupTests.swift */; };
+		817CAF2D1E543DA600DD94B6 /* HippoupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817CAF2C1E543DA600DD94B6 /* HippoupUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		817CAF1E1E543DA600DD94B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 817CAF011E543DA600DD94B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 817CAF081E543DA600DD94B6;
+			remoteInfo = Hippoup;
+		};
+		817CAF291E543DA600DD94B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 817CAF011E543DA600DD94B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 817CAF081E543DA600DD94B6;
+			remoteInfo = Hippoup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		817CAF091E543DA600DD94B6 /* Hippoup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hippoup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		817CAF0C1E543DA600DD94B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		817CAF0E1E543DA600DD94B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		817CAF111E543DA600DD94B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		817CAF131E543DA600DD94B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		817CAF161E543DA600DD94B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		817CAF181E543DA600DD94B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		817CAF1D1E543DA600DD94B6 /* HippoupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HippoupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		817CAF211E543DA600DD94B6 /* HippoupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HippoupTests.swift; sourceTree = "<group>"; };
+		817CAF231E543DA600DD94B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		817CAF281E543DA600DD94B6 /* HippoupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HippoupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		817CAF2C1E543DA600DD94B6 /* HippoupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HippoupUITests.swift; sourceTree = "<group>"; };
+		817CAF2E1E543DA600DD94B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		817CAF061E543DA600DD94B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817CAF1A1E543DA600DD94B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817CAF251E543DA600DD94B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		817CAF001E543DA600DD94B6 = {
+			isa = PBXGroup;
+			children = (
+				817CAF0B1E543DA600DD94B6 /* Hippoup */,
+				817CAF201E543DA600DD94B6 /* HippoupTests */,
+				817CAF2B1E543DA600DD94B6 /* HippoupUITests */,
+				817CAF0A1E543DA600DD94B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		817CAF0A1E543DA600DD94B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				817CAF091E543DA600DD94B6 /* Hippoup.app */,
+				817CAF1D1E543DA600DD94B6 /* HippoupTests.xctest */,
+				817CAF281E543DA600DD94B6 /* HippoupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		817CAF0B1E543DA600DD94B6 /* Hippoup */ = {
+			isa = PBXGroup;
+			children = (
+				817CAF0C1E543DA600DD94B6 /* AppDelegate.swift */,
+				817CAF0E1E543DA600DD94B6 /* ViewController.swift */,
+				817CAF101E543DA600DD94B6 /* Main.storyboard */,
+				817CAF131E543DA600DD94B6 /* Assets.xcassets */,
+				817CAF151E543DA600DD94B6 /* LaunchScreen.storyboard */,
+				817CAF181E543DA600DD94B6 /* Info.plist */,
+			);
+			path = Hippoup;
+			sourceTree = "<group>";
+		};
+		817CAF201E543DA600DD94B6 /* HippoupTests */ = {
+			isa = PBXGroup;
+			children = (
+				817CAF211E543DA600DD94B6 /* HippoupTests.swift */,
+				817CAF231E543DA600DD94B6 /* Info.plist */,
+			);
+			path = HippoupTests;
+			sourceTree = "<group>";
+		};
+		817CAF2B1E543DA600DD94B6 /* HippoupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				817CAF2C1E543DA600DD94B6 /* HippoupUITests.swift */,
+				817CAF2E1E543DA600DD94B6 /* Info.plist */,
+			);
+			path = HippoupUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		817CAF081E543DA600DD94B6 /* Hippoup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 817CAF311E543DA600DD94B6 /* Build configuration list for PBXNativeTarget "Hippoup" */;
+			buildPhases = (
+				817CAF051E543DA600DD94B6 /* Sources */,
+				817CAF061E543DA600DD94B6 /* Frameworks */,
+				817CAF071E543DA600DD94B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hippoup;
+			productName = Hippoup;
+			productReference = 817CAF091E543DA600DD94B6 /* Hippoup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		817CAF1C1E543DA600DD94B6 /* HippoupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 817CAF341E543DA600DD94B6 /* Build configuration list for PBXNativeTarget "HippoupTests" */;
+			buildPhases = (
+				817CAF191E543DA600DD94B6 /* Sources */,
+				817CAF1A1E543DA600DD94B6 /* Frameworks */,
+				817CAF1B1E543DA600DD94B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				817CAF1F1E543DA600DD94B6 /* PBXTargetDependency */,
+			);
+			name = HippoupTests;
+			productName = HippoupTests;
+			productReference = 817CAF1D1E543DA600DD94B6 /* HippoupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		817CAF271E543DA600DD94B6 /* HippoupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 817CAF371E543DA600DD94B6 /* Build configuration list for PBXNativeTarget "HippoupUITests" */;
+			buildPhases = (
+				817CAF241E543DA600DD94B6 /* Sources */,
+				817CAF251E543DA600DD94B6 /* Frameworks */,
+				817CAF261E543DA600DD94B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				817CAF2A1E543DA600DD94B6 /* PBXTargetDependency */,
+			);
+			name = HippoupUITests;
+			productName = HippoupUITests;
+			productReference = 817CAF281E543DA600DD94B6 /* HippoupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		817CAF011E543DA600DD94B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "王绵杰";
+				TargetAttributes = {
+					817CAF081E543DA600DD94B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					817CAF1C1E543DA600DD94B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 817CAF081E543DA600DD94B6;
+					};
+					817CAF271E543DA600DD94B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 817CAF081E543DA600DD94B6;
+					};
+				};
+			};
+			buildConfigurationList = 817CAF041E543DA600DD94B6 /* Build configuration list for PBXProject "Hippoup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 817CAF001E543DA600DD94B6;
+			productRefGroup = 817CAF0A1E543DA600DD94B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				817CAF081E543DA600DD94B6 /* Hippoup */,
+				817CAF1C1E543DA600DD94B6 /* HippoupTests */,
+				817CAF271E543DA600DD94B6 /* HippoupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		817CAF071E543DA600DD94B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817CAF171E543DA600DD94B6 /* LaunchScreen.storyboard in Resources */,
+				817CAF141E543DA600DD94B6 /* Assets.xcassets in Resources */,
+				817CAF121E543DA600DD94B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817CAF1B1E543DA600DD94B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817CAF261E543DA600DD94B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		817CAF051E543DA600DD94B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817CAF0F1E543DA600DD94B6 /* ViewController.swift in Sources */,
+				817CAF0D1E543DA600DD94B6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817CAF191E543DA600DD94B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817CAF221E543DA600DD94B6 /* HippoupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817CAF241E543DA600DD94B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817CAF2D1E543DA600DD94B6 /* HippoupUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		817CAF1F1E543DA600DD94B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 817CAF081E543DA600DD94B6 /* Hippoup */;
+			targetProxy = 817CAF1E1E543DA600DD94B6 /* PBXContainerItemProxy */;
+		};
+		817CAF2A1E543DA600DD94B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 817CAF081E543DA600DD94B6 /* Hippoup */;
+			targetProxy = 817CAF291E543DA600DD94B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		817CAF101E543DA600DD94B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				817CAF111E543DA600DD94B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		817CAF151E543DA600DD94B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				817CAF161E543DA600DD94B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		817CAF2F1E543DA600DD94B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		817CAF301E543DA600DD94B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		817CAF321E543DA600DD94B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hippoup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thorn.Hippoup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		817CAF331E543DA600DD94B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hippoup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thorn.Hippoup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		817CAF351E543DA600DD94B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HippoupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thorn.HippoupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hippoup.app/Hippoup";
+			};
+			name = Debug;
+		};
+		817CAF361E543DA600DD94B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HippoupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thorn.HippoupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hippoup.app/Hippoup";
+			};
+			name = Release;
+		};
+		817CAF381E543DA600DD94B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HippoupUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thorn.HippoupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hippoup;
+			};
+			name = Debug;
+		};
+		817CAF391E543DA600DD94B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HippoupUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thorn.HippoupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hippoup;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		817CAF041E543DA600DD94B6 /* Build configuration list for PBXProject "Hippoup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817CAF2F1E543DA600DD94B6 /* Debug */,
+				817CAF301E543DA600DD94B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		817CAF311E543DA600DD94B6 /* Build configuration list for PBXNativeTarget "Hippoup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817CAF321E543DA600DD94B6 /* Debug */,
+				817CAF331E543DA600DD94B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		817CAF341E543DA600DD94B6 /* Build configuration list for PBXNativeTarget "HippoupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817CAF351E543DA600DD94B6 /* Debug */,
+				817CAF361E543DA600DD94B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		817CAF371E543DA600DD94B6 /* Build configuration list for PBXNativeTarget "HippoupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817CAF381E543DA600DD94B6 /* Debug */,
+				817CAF391E543DA600DD94B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 817CAF011E543DA600DD94B6 /* Project object */;
+}
