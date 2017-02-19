@@ -99,6 +99,7 @@
 			children = (
 				817CAF0C1E543DA600DD94B6 /* AppDelegate.swift */,
 				817CAF0E1E543DA600DD94B6 /* ViewController.swift */,
+				817CAF9C1E59C9D600DD94B6 /* BaseModule */,
 				817CAF101E543DA600DD94B6 /* Main.storyboard */,
 				817CAF131E543DA600DD94B6 /* Assets.xcassets */,
 				817CAF151E543DA600DD94B6 /* LaunchScreen.storyboard */,
@@ -123,6 +124,13 @@
 				817CAF2E1E543DA600DD94B6 /* Info.plist */,
 			);
 			path = HippoupUITests;
+			sourceTree = "<group>";
+		};
+		817CAF9C1E59C9D600DD94B6 /* BaseModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BaseModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -503,6 +511,7 @@
 				817CAF331E543DA600DD94B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		817CAF341E543DA600DD94B6 /* Build configuration list for PBXNativeTarget "HippoupTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +520,7 @@
 				817CAF361E543DA600DD94B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		817CAF371E543DA600DD94B6 /* Build configuration list for PBXNativeTarget "HippoupUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +529,7 @@
 				817CAF391E543DA600DD94B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
