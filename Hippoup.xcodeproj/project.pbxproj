@@ -78,6 +78,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		810622BA1E61CC64007520F7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		810622BB1E61CC6D007520F7 /* FailDeal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FailDeal;
+			sourceTree = "<group>";
+		};
 		817CAF001E543DA600DD94B6 = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +147,8 @@
 		817CAF9C1E59C9D600DD94B6 /* BaseModule */ = {
 			isa = PBXGroup;
 			children = (
+				810622BB1E61CC6D007520F7 /* FailDeal */,
+				810622BA1E61CC64007520F7 /* Core */,
 				81CC93E11E5B30F500650E09 /* TVBMediator.swift */,
 				81EF3A551E5D2BD200DC85ED /* TVBBaseViewController.swift */,
 			);
